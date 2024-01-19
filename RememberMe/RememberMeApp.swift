@@ -5,6 +5,7 @@
 //  Created by Sifiso Dhlamini on 2024/1/19.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct RememberMeApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Person.self)
     }
 }

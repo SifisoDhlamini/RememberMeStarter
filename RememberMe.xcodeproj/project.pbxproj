@@ -11,6 +11,7 @@
 		600907A32B5A420600452296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600907A22B5A420600452296 /* ContentView.swift */; };
 		600907A52B5A420700452296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600907A42B5A420700452296 /* Assets.xcassets */; };
 		600907A82B5A420700452296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600907A72B5A420700452296 /* Preview Assets.xcassets */; };
+		600907AF2B5A42A000452296 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600907AE2B5A42A000452296 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		600907A22B5A420600452296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		600907A42B5A420700452296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600907A72B5A420700452296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		600907AE2B5A42A000452296 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				600907A02B5A420600452296 /* RememberMeApp.swift */,
 				600907A22B5A420600452296 /* ContentView.swift */,
+				600907AE2B5A42A000452296 /* Person.swift */,
 				600907A42B5A420700452296 /* Assets.xcassets */,
 				600907A62B5A420700452296 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600907AF2B5A42A000452296 /* Person.swift in Sources */,
 				600907A32B5A420600452296 /* ContentView.swift in Sources */,
 				600907A12B5A420600452296 /* RememberMeApp.swift in Sources */,
 			);
